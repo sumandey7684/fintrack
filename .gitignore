@@ -1,0 +1,25 @@
+# Maven build output
+target/
+
+# Local tooling (downloaded Maven, etc.)
+.tools/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / secrets
+*.log
+.env
+.env.local
+
+# Crash dumps
+hs_err_pid*
+replay_pid*
